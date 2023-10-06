@@ -283,3 +283,17 @@ skew to change the 'thickness' of the glitch.*/
     transform: skew(0deg);
   }
 }
+
+
+/* Mobile View for Text */
+@media (max-width: 768px) {
+  .glitch {
+    font-size: 2em;
+    letter-spacing: 0.25em;
+  }
+  
+  .sub {
+    font-size: 1em;
+    letter-spacing: 0.5em;
+  }
+}
